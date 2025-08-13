@@ -92,6 +92,7 @@ function Calculator() {
               }
             })}
           </div>
+          <p className="text-center py-2">created by -tasif</p>
         </div>
       </div>
     </div>
