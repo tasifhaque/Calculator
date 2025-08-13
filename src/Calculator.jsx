@@ -26,7 +26,7 @@ function Calculator() {
             className="text-end rounded outline-none px-2 py-5 bg-gray-400 text-4xl font-bolder gap-2"
             value={data}
           />
-          <div className="grid grid-cols-4 mt-14 gap-4 [&>*:nth-child(2)]:bg-yellow-200 [&>*:nth-child(3)]:bg-pink-300 [&>*:nth-child(8)]:bg-violet-400 [&>*:nth-child(12)]:bg-blue-400  [&>*:nth-child(16)]:bg-teal-400 [&>*:nth-child(20)]:bg-rose-400">
+          <div className="grid grid-cols-4 mt-14 gap-4 [&>*:nth-child(2)]:bg-yellow-200 [&>*:nth-child(2)]:hover:bg-yellow-300 [&>*:nth-child(2)]:active:bg-yellow-100 [&>*:nth-child(3)]:bg-pink-300 [&>*:nth-child(3)]:hover:bg-pink-400 [&>*:nth-child(3)]:active:bg-pink-200  [&>*:nth-child(8)]:bg-violet-400 [&>*:nth-child(8)]:hover:bg-violet-500 [&>*:nth-child(8)]:active:bg-violet-300 [&>*:nth-child(12)]:bg-blue-400 [&>*:nth-child(12)]:hover:bg-blue-500 [&>*:nth-child(12)]:active:bg-blue-300  [&>*:nth-child(16)]:bg-teal-400 [&>*:nth-child(16)]:hover:bg-teal-500 [&>*:nth-child(16)]:active:bg-teal-300 [&>*:nth-child(20)]:bg-rose-400 [&>*:nth-child(20)]:hover:bg-rose-500 [&>*:nth-child(20)]:active:bg-rose-300">
             {[
               "AC",
               "+-",
