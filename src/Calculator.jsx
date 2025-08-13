@@ -26,7 +26,7 @@ function Calculator() {
             className="text-end rounded outline-none px-2 py-5 bg-gray-400 text-4xl font-bolder gap-2"
             value={data}
           />
-          <div className="grid grid-cols-4 mt-14 gap-4 [&>*:nth-child(1)]:bg-amber-300">
+          <div className="grid grid-cols-4 mt-14 gap-4 [&>*:nth-child(2)]:bg-yellow-200 [&>*:nth-child(3)]:bg-pink-300 [&>*:nth-child(8)]:bg-violet-400 [&>*:nth-child(12)]:bg-blue-400  [&>*:nth-child(16)]:bg-teal-400 [&>*:nth-child(20)]:bg-rose-400">
             {[
               "AC",
               "+-",
@@ -54,7 +54,7 @@ function Calculator() {
                   <button
                     onClick={dlt}
                     value={val}
-                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-gray-500  bg-purple-300 active:bg-gray-300 "
+                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-purple-400  bg-purple-300 active:bg-gray-300 "
                   >
                     {val}
                   </button>
@@ -64,7 +64,7 @@ function Calculator() {
                   <button
                     onClick={equal}
                     value={val}
-                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-gray-500  bg-purple-300 active:bg-gray-300 "
+                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-green-500 bg-green-700 active:bg-gray-300 "
                   >
                     {val}
                   </button>
@@ -74,7 +74,7 @@ function Calculator() {
                   <button
                     onClick={remove}
                     value={val}
-                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-gray-500  bg-purple-300 active:bg-gray-300 "
+                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-red-400 bg-red-300 active:bg-gray-300 "
                   >
                     {val}
                   </button>
@@ -84,7 +84,7 @@ function Calculator() {
                   <button
                     onClick={getValue}
                     value={val}
-                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-gray-500  bg-purple-300 active:bg-gray-300 "
+                    className="rounded-2xl  py-4 text-2xl font-bolder cursor-pointer hover:bg-gray-500  bg-gray-400 active:bg-gray-300 "
                   >
                     {val}
                   </button>
